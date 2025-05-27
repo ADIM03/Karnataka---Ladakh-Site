@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome - Karnataka vs Ladakh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Karnataka vs Ladakh</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="culture.html">Culture</a>
+      <a href="contact.html">Contact & Tourism</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Compare Two Incredible Indian Regions</h2>
+    <p>Explore the diversity of Karnataka and Ladakh in terms of geography, climate, languages, and more.</p>
+    <table>
+      <tr>
+        <th>Aspect</th>
+        <th>Karnataka</th>
+        <th>Ladakh</th>
+      </tr>
+      <tr>
+        <td>Location</td>
+        <td>South India</td>
+        <td>Northern Himalayas</td>
+      </tr>
+      <tr>
+        <td>Climate</td>
+        <td>Tropical</td>
+        <td>Cold Desert</td>
+      </tr>
+      <tr>
+        <td>Language</td>
+        <td>Kannada</td>
+        <td>Ladakhi, Tibetan</td>
+      </tr>
+      <tr>
+        <td>Capital</td>
+        <td>Bengaluru</td>
+        <td>Leh (for Leh district)</td>
+      </tr>
+    </table>
+    <img src="karnataka.jpg" alt="Scenery of Karnataka" width="300">
+    <img src="ladakh.jpg" alt="Landscape of Ladakh" width="300">
+  </main>
+  <footer>
+    <p>&copy; 2025 Explore India</p>
+  </footer>
+</body>
+</html>
+
+<!-- culture.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Culture - Karnataka vs Ladakh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cultural Highlights</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="culture.html">Culture</a>
+      <a href="contact.html">Contact & Tourism</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Karnataka</h2>
+      <p>Karnataka is known for its classical music, dance forms like Yakshagana, and rich temple architecture.</p>
+      <img src="yakshagana.jpg" alt="Yakshagana Performance" width="300">
+    </section>
+    <section>
+      <h2>Ladakh</h2>
+      <p>Ladakh is rich in Buddhist traditions, monasteries, and festivals such as Hemis Festival.</p>
+      <img src="hemis.jpg" alt="Hemis Festival" width="300">
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Explore India</p>
+  </footer>
+</body>
+</html>
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Tourism Help</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact & Tourism Help</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="culture.html">Culture</a>
+      <a href="contact.html">Contact & Tourism</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Tourism Information</h2>
+      <p>Visit the official sites for more details:</p>
+      <ul>
+        <li><a href="https://www.karnatakatourism.org" target="_blank">Karnataka Tourism</a></li>
+        <li><a href="https://www.ladakhtourism.com" target="_blank">Ladakh Tourism</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact Us</h2>
+      <form>
+        <label>Name:<br><input type="text" name="name"></label><br><br>
+        <label>Email:<br><input type="email" name="email"></label><br><br>
+        <label>Message:<br><textarea name="message"></textarea></label><br><br>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Explore India</p>
+  </footer>
+</body>
+</html>
+
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
